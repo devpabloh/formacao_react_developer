@@ -5,8 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FlexBox</title>
     <style>
+        body{
+            background-color: blanchedalmond;
+        }
         .flex{
             display: flex;
+            align-items: center;
+            justify-content: space-around;
         }
         .item{
             width: 80px;
@@ -15,8 +20,7 @@
             color: white;
             display: flex;
             align-items: center;
-            justify-content: center;
-            margin: 10px;
+            justify-content: space-around;
         }
 
         .item:nth-child(1):hover{
@@ -27,13 +31,26 @@
             background-color: red;
             cursor: pointer;
         }
+
+        @media (max-width: 450px) {
+            body {
+             background-color: black;
+            }
+            .flex{
+                flex-direction: column;
+                gap: 1em;
+            }
+        }
     </style>
 </head>
 <body>
+    <h1>FlexBox</h1>
     <div class="flex">
         <div class="item">a</div>
         <div class="item">b</div>
         <div class="item">c</div>
+        <div class="item">d</div>
+        <div class="item">e</div>
     </div>
     
 </body>
