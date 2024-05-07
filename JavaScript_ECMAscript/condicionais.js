@@ -7,6 +7,7 @@ if(idade > 18){
 }
 
 idade = 16
+
 /* switch (key) {
     case value:
         
