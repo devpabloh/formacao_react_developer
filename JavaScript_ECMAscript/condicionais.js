@@ -11,7 +11,7 @@
 let nota = 7
 
 
-switch (nota) {
+/* switch (nota) {
     case 7:
         console.log('Você está aprovado!');
         break;
@@ -21,4 +21,6 @@ switch (nota) {
     default: 
         console.log("você está em recuperação!");
         break;
-}
+} */
+
+nota > 5? console.log('Você foi aprovado') ; console.log('Você foi reprovado')
