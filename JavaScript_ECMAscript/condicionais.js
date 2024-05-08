@@ -1,5 +1,49 @@
+/* 
+
+sintaxes Condicionais
+
+-if (se), else (se não) e else if
+
+usando apenas o if e else
+if(condição se ocorrer ela executará o código){
+
+}else{
+
+}
+
+usando if, else if e else
+
+if(){
+
+}else if(){
+
+}else
+
+}
+
+- switch(){
+    case valor:
+        ação a ser executada se o valor da case for igual;
+        break;
+    case valor:
+       ação a ser executada se o valor da case for igual;
+       break;
+    default:
+        se não for nenhuma das ações anteriores caira nessa;
+        break; O break aqui é opcional
+}    
 
 
+- tenário
+variavel condição ? se a condição for verdadeira faça isso : se não for faça isso;
+let media = 7
+
+media > 7 ? console.log('você foi aprovado') : Console.log('Você foi reprovado');
+
+*/
+
+
+    
 /* if(idade > 18){
     console.log(`você é maior de idade`)
 }else{
