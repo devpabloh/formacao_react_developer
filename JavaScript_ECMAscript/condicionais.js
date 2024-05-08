@@ -1,5 +1,4 @@
 
-let nota = 7
 
 /* if(idade > 18){
     console.log(`você é maior de idade`)
@@ -9,14 +8,17 @@ let nota = 7
  */
 
 
+let nota = 7
+
+
 switch (nota) {
-    case nota < 5:
-        console.log('Você está reprovado!')
+    case 7:
+        console.log('Você está aprovado!');
         break;
-    case nota > 5:
-        console.log("Você está na média")
+    case  5:
+        console.log("Você está na reprovado");
         break;
     default: 
-        console.log("você está aprovado!")
+        console.log("você está em recuperação!");
         break;
 }
