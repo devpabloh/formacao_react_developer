@@ -8,7 +8,7 @@
  */
 
 
-let nota = 7
+let nota = 5
 
 
 /* switch (nota) {
@@ -23,4 +23,4 @@ let nota = 7
         break;
 } */
 
-nota > 5? console.log('Você foi aprovado') ; console.log('Você foi reprovado')
+nota > 5 ? console.log('Você foi aprovado') : console.log('Você foi reprovado')
